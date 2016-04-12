@@ -1,7 +1,7 @@
 
 ## Vini's Solutions for Aporeto Internship Quiz
 
-### Problem1: Bash Shell Script sample:
+### Solution1: Bash Shell Script sample:
 
 Implement a script which has the following usage format:
 
@@ -29,20 +29,24 @@ File already exists
  * In case of bad command line args, the help showing usage should be printed and returned with error (non zero code).
  * In all successful case return code should be 0
 
-### Problem2: Python/Go sample:
+### Solution2: Python/Go sample:
 
-Implement the following as described below in either go or python:
+Following is the command to run uniquify.py
 
 ```bash
-uniquify [--help|-h]
-uniquify --file=<filename> --output=<output-filename> [—verbose]
+python uniquify.py --file=input_data.txt --output=output_data.txt --verbose
+
 ```
 
-This script/program should input a file with the name provided in the args called <filename>. This input file can contain millions of lines with duplicates.
+You can also run the program using the command below by turning off the verbose. By turning off verbose, you will not get print statement.
 
-The script/program should output a file with name provided in the args called <output-filename> with all duplicate sentences removed.
+```bash
+python uniquify.py --file=input_data.txt --output=output_data.txt
 
-### Problem3: Go sample:
+```
+
+
+### Solution3: Go sample:
 
 Following are the commands used to execute the go program
 
