@@ -8,10 +8,8 @@ Passing without any argument is not valid
 
 ```bash
 sh-4.3$ ./bash_example.sh 
-```
-
 No arguments supplied. Usage is ./bash_example --create-file=<filename> [--no-prompt] [--verbose]   
-
+```
 
 The file does not exist. Therefore,the file will be created for the first time
 
